@@ -1,0 +1,14 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Class newClass {
+                Val count: Int = 150;
+                Val sum, rate: Float = 10.2, 34.4;
+                PrintOut() {
+                    Return Self.count * Self.rate;
+                }
+            }
+        

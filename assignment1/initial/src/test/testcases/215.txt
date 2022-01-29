@@ -1,0 +1,12 @@
+
+            Class Program {
+                main(){
+
+                }
+            }
+            Class Des {
+                Destructor() {
+                    Stand.Delete().All(0);
+                }
+            }
+        

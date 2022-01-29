@@ -1,0 +1,1 @@
+String,ID,Int,123,0b0,0X0,12343,Var,x,,,y,,,z,=,Int,:,1,,,2,,,3,<EOF>

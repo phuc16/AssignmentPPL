@@ -1,0 +1,11 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Foreach (i In 0 .. 10 By 1 + 2 + 3 + a.get - b.name) {
+                Continue;
+                Break;
+            }
+        

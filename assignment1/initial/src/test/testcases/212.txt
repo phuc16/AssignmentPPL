@@ -1,0 +1,12 @@
+
+            Class ari {
+                $_getMethod() {
+                    Return 12 + 1.2 - c + !b >= 8 || 4 || (a + b);
+                }
+            }
+            Class Program {
+                main() {
+                    a = (myConst + b) && a + b + abcde;
+                }
+            }
+        

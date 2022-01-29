@@ -1,0 +1,16 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Class A: B {
+                Val c: C = New C();
+            }
+            Class C {
+                Var b: A;
+                c__ount__() {
+                    Return C::$name + C.getName().str[2];
+                }
+            }
+        

@@ -1,0 +1,12 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Class Name {
+                hello(s1, s2, s3: String) {
+                    Return Str.concat(s1, s2, s3);
+                }
+            }
+        

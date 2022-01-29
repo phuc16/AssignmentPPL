@@ -1,0 +1,13 @@
+
+            Class class {
+                Var a, b, c: Int = 3, 4, 5;
+                $print() {
+                    Return Array(a,b,c);
+                }
+            }
+            Class Program {
+                main() {
+
+                }
+            }
+        

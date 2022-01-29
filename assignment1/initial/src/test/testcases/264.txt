@@ -1,0 +1,7 @@
+
+            Class C {
+                Var a: Int = func();
+                Val constVar: String = "Hello";
+                Val a,b,c: Int = 0.9, 1.0;
+            }
+        

@@ -1,0 +1,10 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Class A {
+                Return New B(A);
+            }
+        

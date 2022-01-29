@@ -1,0 +1,7 @@
+ 
+            Class MeowMeow: Dog {
+                Var b: Int;
+                Var $a, c, d: Float = .e4, 2., 78.9;
+                Var a: Array[Float, 5] = Array(1.2, 3.6, 34e5, 23e4, 12.7e4);
+            }
+            

@@ -1,0 +1,7 @@
+
+            Class Method: Param {
+                m() {
+                    a = T::$get() + New X().G() - A.b().f().t();
+                }
+            }
+        

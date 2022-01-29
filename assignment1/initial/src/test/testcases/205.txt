@@ -1,0 +1,9 @@
+
+            Class mini {
+                loop(a: Int; b: Float) {
+                    Foreach (i In 0 .. 150 By i <= 8) {
+                        sum = sum + a[i];
+                    }
+                }
+            }
+            

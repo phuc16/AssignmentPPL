@@ -1,0 +1,17 @@
+
+            Class Program {
+                Var a, b, c: Int = 1, 2, 3 >= 9 + 5;
+                main() {
+                    If (a >= b) {
+                        Foreach (i In 0 .. c[5][3].length By 1) {
+                            If (c[i]) {
+                                Continue;
+                            }
+                            Else {
+                                Break;
+                            }
+                        }
+                    }
+                }
+            }
+        

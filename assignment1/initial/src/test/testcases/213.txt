@@ -1,0 +1,7 @@
+
+            Class myDog {
+                method(a: Array[Int, 4]) {
+                    Return a[0]
+                }
+            }
+        

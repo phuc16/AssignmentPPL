@@ -1,0 +1,8 @@
+
+            Class Program {
+                main() {
+                    b = Main::$get()[1];
+                    a = Main[0][1][2].get();
+                }
+            }
+        

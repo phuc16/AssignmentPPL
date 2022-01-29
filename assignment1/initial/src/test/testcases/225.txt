@@ -1,0 +1,12 @@
+
+            Class Program {
+                main() {
+                    Var a,b: Array[Float, 4.5];
+                }
+            }
+            Class lop {
+                attr(a, b: Int) {
+                    Return a[4] != b[1].name;
+                }
+            }
+        

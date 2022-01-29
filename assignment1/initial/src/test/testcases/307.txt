@@ -1,0 +1,44 @@
+ 
+            Class Shape {
+                Val $numOfShape: Int = 0;
+                Val immutableAttribute: Int = 0;
+                Var length, width: Int;
+                Var a: Array[Float, 5] = Array(1.2, 3.6, 34e5, 23e4, 12.7e4);
+                $getNumOfShape() {
+
+                }
+            }
+            Class Rectangle: Shape {
+                getArea() {
+                    Foreach (x In 5 .. 2) {
+                        Var a: Array[Int, 3] = Array(1,2,3);
+                        If(x > 2){
+                            Out.printInt(a[0]);
+                        }
+                        Elseif(x == 2){
+                            Out.printInt(a[1]);
+                        }
+                        Else{
+                            Out.printInt(a[2]);
+                        }
+                    }
+                }
+            }
+            Class Program {
+                main() {
+                    If(x > 2){
+                        Out.printInt(a[0]);
+                    }
+                    Elseif(x == 2){
+                        Out.printInt(a[1]);
+                        Break;
+                    }
+                    Elseif(x == 3){
+                        Continue;
+                    }
+                    Elseif(x == 4){
+                        Return;
+                    }
+                }
+            }
+        

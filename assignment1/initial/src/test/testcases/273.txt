@@ -1,0 +1,7 @@
+
+            Class A {
+                method() {
+                    Var a, b, $c: Float = 1.0, 2.3;
+                }
+            }
+        

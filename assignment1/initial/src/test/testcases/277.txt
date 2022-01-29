@@ -1,0 +1,5 @@
+
+            Class myArray {
+                Var Arr: Array[Array[Int, 2], 0b0];
+            }
+        

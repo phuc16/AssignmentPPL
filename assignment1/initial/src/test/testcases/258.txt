@@ -1,0 +1,5 @@
+
+            Class B {
+                Var b, c : Int = 10.42;
+            }
+        

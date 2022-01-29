@@ -1,0 +1,11 @@
+
+            Class Program {
+                $method() {
+                    Foreach(i In -3 .. -1 By -100) {
+                        Foreach(j In 0 .. -0xFF By 0b1) {
+                            Var a: Float = 0.2;
+                        }
+                    }
+                }
+            }
+        

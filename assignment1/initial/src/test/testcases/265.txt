@@ -1,0 +1,9 @@
+
+            Class Program {
+                main() {
+                    func_declare() {
+                        Return main().text();
+                    }
+                }
+            }
+        

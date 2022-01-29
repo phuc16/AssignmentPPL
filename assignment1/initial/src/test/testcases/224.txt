@@ -1,0 +1,11 @@
+
+            Class obj {
+                Var _obj: Int = 0, 9;
+            }
+            Class Program {
+                main() {
+                    func(Array("a", "b", "c"));
+                    Return Self.arr;
+                }
+            }
+        

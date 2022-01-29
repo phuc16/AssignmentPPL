@@ -1,0 +1,7 @@
+
+            Class Program {
+                main() {
+                    Return ClassName::a::b::c.d;
+                }
+            }
+        

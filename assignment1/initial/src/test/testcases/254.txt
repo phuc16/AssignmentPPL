@@ -1,0 +1,5 @@
+
+            Class V {
+                Val arr = Array[Array[Int, 0b1], 0xAF];
+            }
+        

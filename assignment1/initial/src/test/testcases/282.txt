@@ -1,0 +1,7 @@
+
+            Class D96 {
+                Construc() {
+                    Val arr: Array[Array[Array[Float, 00],0x3_23],4];
+                }
+            }
+        

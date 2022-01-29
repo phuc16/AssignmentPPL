@@ -1,0 +1,5 @@
+
+            Class B: A, T {
+                Var b: Int = 0;
+            }
+        

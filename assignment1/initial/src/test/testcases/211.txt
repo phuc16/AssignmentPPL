@@ -1,0 +1,10 @@
+
+            Class myClass {
+                method() {
+                    Foreach (i In 0 .. 100 By e <= i) {
+                        a[1][2] = a[1][1] + b[1][3][i];
+                    }
+                    Return a <= b;
+                }
+            }
+        

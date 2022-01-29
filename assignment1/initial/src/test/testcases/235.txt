@@ -1,0 +1,12 @@
+
+            Class Program {
+                main() {
+                    Out.print(Dog.sound());
+                }
+            }
+            Class Dog {
+                sound() {
+                    Return New Animal().dogSound();
+                }
+            }
+        

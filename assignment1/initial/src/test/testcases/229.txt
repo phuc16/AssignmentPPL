@@ -1,0 +1,8 @@
+
+            Class Func {
+                Constructor(){Return name;}
+            }
+            Class B {
+                Return statements;
+            }
+        

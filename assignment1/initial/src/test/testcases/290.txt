@@ -1,0 +1,9 @@
+
+            Class Note {
+                m() {
+                    a = name[0].length;
+                    b = age.len[1][2];
+                    c = age::$Len().t()[2];
+                }
+            }
+        

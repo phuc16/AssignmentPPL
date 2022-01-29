@@ -1,0 +1,8 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Out.print(a, b, 3);
+        

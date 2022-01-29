@@ -1,0 +1,9 @@
+
+            Class Program {
+                main() {
+                    Out.ar() {
+                        Return New ClassName();
+                    }
+                }
+            }
+        

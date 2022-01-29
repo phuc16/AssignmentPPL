@@ -1,0 +1,12 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Class Meo: Dog {
+                $get() {
+                    Self.name = Dog::name;
+                }
+            }
+        

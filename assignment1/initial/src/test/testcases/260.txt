@@ -1,0 +1,7 @@
+
+            Class Program {
+                main() {
+                    a[0] = "String 1" ==. "string \'";
+                }
+            }
+        

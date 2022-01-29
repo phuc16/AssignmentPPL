@@ -1,0 +1,13 @@
+
+            Class Meow {
+                returnMethod() {
+
+                }
+                Constructor() {
+                    Self.init = value;
+                }
+                Destructor() {
+                    Mew.EraseAll();
+                }
+            }
+        
