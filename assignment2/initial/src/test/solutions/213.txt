@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Champions),[AttributeDecl(Instance,VarDecl(Id(Name),StringType)),AttributeDecl(Instance,VarDecl(Id(Skill),ArrayType(4,StringType)))]),ClassDecl(Id(Yasuo),[MethodDecl(Id(getHP),Instance,[],Block([Return(FieldAccess(Self(),Id(HP)))]))])])

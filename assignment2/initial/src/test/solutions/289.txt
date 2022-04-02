@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(InLit),Id(Type),[MethodDecl(Id(__str__),Instance,[param(Id(str),StringType)],Block([AssignStmt(FieldAccess(Self(),Id(str)),Id(str)),AssignStmt(FieldAccess(Self(),Id(a)),BinaryOp(-,BinaryOp(+,CallExpr(Self(),Id(count),[]),CallExpr(Id(expr),Id($dollar),[])),CallExpr(Id(expr),Id(dollar),[])))]))])])

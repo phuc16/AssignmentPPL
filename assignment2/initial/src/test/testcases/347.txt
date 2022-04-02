@@ -1,0 +1,10 @@
+
+        Class Client{
+            Check(){
+            If (player >= 10000) {
+                    Return a;
+                }
+            }
+            
+        } 
+        

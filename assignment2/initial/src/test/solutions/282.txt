@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(D96),[MethodDecl(Id(Construc),Instance,[],Block([ConstDecl(Id(arr),ArrayType(4,ArrayType(803,ArrayType(1,FloatType))),None)]))])])

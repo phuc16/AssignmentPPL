@@ -1,0 +1,27 @@
+
+            Class A {
+                getName() {
+                    Var b: Float = 0.3;
+                }
+                func() {
+                    If (a >= b) {
+                        Var a: Int = 0;
+                        a = a + 3;
+                    }
+                    Elseif (b >= c) {
+                        Self.getName(a >= b);
+                    }
+                    Elseif (12 >= g) {
+                        Self.insert("String");
+                    }
+                    Else {
+                        GiaBao = Hieu;
+                        Hung = Vi;
+                    }
+                }
+
+                setAge(age: Int) {
+                    Self.age = age;
+                }
+            }
+            

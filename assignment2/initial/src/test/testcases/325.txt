@@ -1,0 +1,5 @@
+
+        Class Program {
+            Var x,y,z: Boolean = True, False, False;
+        }
+        

@@ -1,0 +1,14 @@
+
+            Class TFT {
+                Val buff: BUFF = Self.round.get();
+                randomHexcore(){
+                    If (first == Array(3)) {
+                        Return Silver;                    
+                        }
+                    If (list.isinstance(S[0], list)) {
+                        Return Self.flatten(S[0]) + Self.flatten(list.from(1).to().of(S));
+                    }
+                    Return list.from().to(1).of(S) + Self.flatten(list.from(1).to().of(S));
+                }
+            }
+        

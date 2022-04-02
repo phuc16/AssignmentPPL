@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(MyClass),[AttributeDecl(Static,VarDecl(Id($a),IntType,IntLit(0))),MethodDecl(Id(Method),Instance,[],Block([Call(Self(),Id(constructor),[Id(a),Id(b),Id(c)]),Call(Id(name),Id(method),[]),If(Id(r),Block([Return(Id(t))]))]))])])

@@ -1,0 +1,7 @@
+
+            Class Champions {
+                method() {
+                    Return Champs[Q][K][A] + Champ.name()[0];
+                }
+            }
+        

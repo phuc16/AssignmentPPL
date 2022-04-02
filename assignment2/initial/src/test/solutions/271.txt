@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([]))]),ClassDecl(Id(B),[MethodDecl(Id(Constructor),Instance,[param(Id(a),IntType),param(Id(b),IntType),param(Id(c),IntType)],Block([Return(BinaryOp(+,BinaryOp(+,FieldAccess(Self(),Id(a)),Id(b)),IntLit(4)))]))])])

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(TFT),[AttributeDecl(Instance,ConstDecl(Id(buff),ClassType(Id(BUFF)),CallExpr(FieldAccess(Self(),Id(round)),Id(get),[])))])])

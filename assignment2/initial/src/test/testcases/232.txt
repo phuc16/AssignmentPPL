@@ -1,0 +1,11 @@
+
+            Class Program {
+                main() {
+                    Foreach (idx In 1 .. 100 + 5 By a[i] >= 9) {
+                        If (a[i][1] != b[1]) {
+                            Return;
+                        }
+                    }
+                }
+            }
+        

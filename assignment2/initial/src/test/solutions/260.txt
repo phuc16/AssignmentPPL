@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(FO4),[MethodDecl(Id(createPlayer),Instance,[],Block([AssignStmt(ArrayCell(Id(playerBool),[IntLit(0)]),BinaryOp(==.,StringLit(name),StringLit(: age \')))]))])])

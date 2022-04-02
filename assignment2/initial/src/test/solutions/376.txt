@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(get),Instance,[],Block([Return(Id(x))])),MethodDecl(Id(set),Instance,[param(Id(_x),StringType)],Block([AssignStmt(Id(x),Id(_x))]))])])

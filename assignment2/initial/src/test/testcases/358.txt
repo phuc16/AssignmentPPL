@@ -1,0 +1,10 @@
+
+        Class Program {
+            main() {
+                x = True;
+            }
+            foo () {
+                Return x.count;
+            }
+        }
+        

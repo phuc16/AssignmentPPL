@@ -1,0 +1,20 @@
+
+            Class Card {
+                Var w,h: Float = 0.2, 0.08;
+                showCard(w,h:Float; t:Table) {
+                    If (w + h >= 0) {
+                        Foreach(i In 0 .. 52 By t) {
+                            If (number > 9) {
+                                If (attr == "Heart") {
+                                    Continue;
+                                }
+                            }
+                        }
+                    }
+                    Elseif (w+h<=0) {
+                        If (money == 0) { Break; }
+                        Else { Return; }
+                    }
+                }
+            }
+        

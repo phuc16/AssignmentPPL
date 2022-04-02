@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(CSGO),[MethodDecl(Id(fireRate),Instance,[],Block([AssignStmt(Id(setRate),ArrayCell(CallExpr(Id(Gun),Id($increaseAccord),[IntLit(1),IntLit(2)]),[IntLit(1)])),AssignStmt(Id(setRecoil),ArrayCell(CallExpr(Id(Gun),Id(setAccord),[]),[Id(x),Id(y),Id(z)]))]))])])

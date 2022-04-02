@@ -1,0 +1,17 @@
+
+        Class Program {
+            main() {
+                Var i,j: Int;
+                Var haveSwap: Boolean;
+                Foreach (i In 0 .. (n-1)){
+                    haveSwap = False;
+                    If (arr[j] > arr[j+1]){
+                        haveSwap = True;
+                    }
+                }
+                If(haveSwap == False){
+                    Break;
+                }
+            }
+        }
+        

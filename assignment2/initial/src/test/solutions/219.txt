@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(foo),[AttributeDecl(Instance,VarDecl(Id(Foo),ArrayType(5,IntType),IntLit(255)))])])

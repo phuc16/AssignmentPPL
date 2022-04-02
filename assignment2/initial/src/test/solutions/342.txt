@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[AttributeDecl(Instance,VarDecl(Id(x),ClassType(Id(PPL)),NullLiteral())),AttributeDecl(Instance,VarDecl(Id(y),ClassType(Id(Assignment1)),NullLiteral())),AttributeDecl(Instance,VarDecl(Id(z),ClassType(Id(Assignment2)),NullLiteral()))])])

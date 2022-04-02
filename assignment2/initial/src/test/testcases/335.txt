@@ -1,0 +1,7 @@
+
+        Class Program {
+            main() {
+                Val a,b: Foo = New Foo(1), New Foo(2);
+            }
+        }
+        

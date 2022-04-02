@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Dog),Id(Animal),[MethodDecl(Id($gaugau),Static,[],Block([AssignStmt(Id(a),ArrayCell(Id(b),[IntLit(7),IntLit(2)]))]))]),ClassDecl(Id(Snake),Id(De),[MethodDecl(Id($OpOp),Static,[],Block([Return(FieldAccess(Self(),Id(Op)))]))])])

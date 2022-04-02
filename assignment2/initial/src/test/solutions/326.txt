@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[AttributeDecl(Instance,VarDecl(Id(x),StringType,StringLit(BKFC))),AttributeDecl(Instance,VarDecl(Id(y),StringType,StringLit(Bach Khoa))),AttributeDecl(Instance,VarDecl(Id(z),StringType,StringLit(HCMUT)))])])

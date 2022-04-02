@@ -1,0 +1,12 @@
+
+            Class PPL {
+                getScore(){
+
+                }
+            }
+            Class quiz:PPL {
+                getScore() {
+                    Return quiz::$getScore();
+                }
+            }
+        

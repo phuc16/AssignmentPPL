@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([Call(Id(Out),Id(print),[CallExpr(Id(Dog),Id(sound),[])])]))]),ClassDecl(Id(Dog),[MethodDecl(Id(sound),Instance,[],Block([Return(CallExpr(NewExpr(Id(Animal),[]),Id(dogSound),[]))]))])])

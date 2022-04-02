@@ -1,0 +1,18 @@
+
+            Class Program {
+                Val main : program ;
+                Var main: program;
+                main() {
+
+                }
+                Main(){
+                    
+                }
+            }
+            
+            Class TFT {
+                main() {
+                    nameLen = name[0];
+                }
+            }
+        

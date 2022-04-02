@@ -1,0 +1,9 @@
+
+        Class Program {
+            foo(a,b,c: Int) {
+                If((a <= b) && (c >= a) && (b >= c)) {
+                    Var _ie : Float = _a::$x;
+                }    
+            }
+        }
+        

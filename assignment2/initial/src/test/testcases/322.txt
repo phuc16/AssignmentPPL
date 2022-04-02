@@ -1,0 +1,7 @@
+
+        Class Program {
+            main() {
+                x = 0x0 + 0B0 - 0 + 00;
+            }
+        }
+        

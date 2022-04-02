@@ -1,0 +1,8 @@
+
+            Class Program {
+                Var stu: Stu = New Stu();
+                mainStu() {
+                    Stu[1] = FUNC.stu().stu1().stu2()[5];
+                }
+            }
+        

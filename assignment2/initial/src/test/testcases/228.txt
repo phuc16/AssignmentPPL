@@ -1,0 +1,7 @@
+
+            Class Program {
+                main(a: Int; b: Float) {
+                    Return New A().B().C();
+                }
+            }
+        

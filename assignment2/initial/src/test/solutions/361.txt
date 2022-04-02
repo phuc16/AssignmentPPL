@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(foo),Instance,[param(Id(a),IntType),param(Id(b),IntType),param(Id(c),IntType)],Block([If(BinaryOp(&&,BinaryOp(&&,BinaryOp(<=,Id(a),Id(b)),BinaryOp(>=,Id(c),Id(a))),BinaryOp(>=,Id(b),Id(c))),Block([VarDecl(Id(_ie),FloatType,FieldAccess(Id(_a),Id($x)))]))]))])])

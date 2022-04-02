@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(dfskjf_jdss),[MethodDecl(Id(Rfsfsa),Instance,[],Block([ConstDecl(Id(r),IntType,IntLit(20))]))])])

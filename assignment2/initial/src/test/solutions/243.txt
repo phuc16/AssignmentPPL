@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(League),[MethodDecl(Id(getVersion),Instance,[],Block([Return(BinaryOp(||,CallExpr(Self(),Id(name),[Id(i)]),FieldAccess(Self(),Id(Skill))))]))])])

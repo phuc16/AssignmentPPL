@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Client),[MethodDecl(Id(Check),Instance,[],Block([If(BinaryOp(>=,Id(player),IntLit(10000)),Block([Return(Id(a))]))]))])])

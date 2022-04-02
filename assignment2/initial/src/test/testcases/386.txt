@@ -1,0 +1,12 @@
+
+            Class check {
+                Var $check: Bool = FALSE; ## accept deal ##
+                check () {
+                    Self.constructor();
+                    name.method();
+                    If (TRUE) {
+                        Return ; ##End turn##
+                    }
+                }
+            }
+        

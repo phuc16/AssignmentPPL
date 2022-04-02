@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(TFT),[MethodDecl(Id(game),Instance,[],Block([VarDecl(Id(HP),IntType,IntLit(100)),VarDecl(Id(Player),IntType,IntLit(8)),AssignStmt(Id(HP),CallExpr(ArrayCell(Id(Player),[IntLit(0)]),Id(getHP),[]))]))])])

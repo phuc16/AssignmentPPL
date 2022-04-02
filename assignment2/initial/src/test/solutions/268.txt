@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Method),Id(Param),[MethodDecl(Id(m),Instance,[],Block([AssignStmt(Id(a),BinaryOp(-,BinaryOp(+,CallExpr(Id(T),Id($get),[]),CallExpr(NewExpr(Id(X),[]),Id(G),[])),CallExpr(CallExpr(CallExpr(Id(A),Id(b),[]),Id(f),[]),Id(t),[])))]))])])

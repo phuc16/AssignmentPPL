@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Fortnite),[AttributeDecl(Instance,VarDecl(Id(a),ArrayType(3,ArrayType(3,StringType)),[[StringLit(Shotgun),StringLit(22),StringLit(18)],[StringLit(Ak),StringLit(5),StringLit(2)],[StringLit(Hand gun),StringLit(17),StringLit(15)]]))])])

@@ -1,0 +1,10 @@
+
+            Class Factorial {
+                Factorial(n: Int) {
+                    If (n <= 1) {
+                        Return 1;
+                    }
+                    Return n * Self.Factorial(n - 1);
+                }
+            }
+            

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(dethod),Instance,[],Block([Return(CallExpr(Self(),Id(method),[]))]))])])

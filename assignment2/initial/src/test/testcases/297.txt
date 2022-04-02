@@ -1,0 +1,7 @@
+
+            Class myClass {
+                _method() {
+                    Name.a[1][2] = Self.get().set.get();
+                }
+            }
+        

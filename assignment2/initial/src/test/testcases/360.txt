@@ -1,0 +1,9 @@
+
+        Class Program {
+            main() {
+                x = True; {
+                    a = 1 + 2 * 3 /4 - Self;
+                }
+            }
+        }
+        

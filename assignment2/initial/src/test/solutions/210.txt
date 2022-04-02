@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(PPL),[MethodDecl(Id(getScore),Instance,[],Block([]))]),ClassDecl(Id(quiz),Id(PPL),[MethodDecl(Id(getScore),Instance,[],Block([Return(CallExpr(Id(quiz),Id($getScore),[]))]))])])

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([Call(Id(HCMUT),Id($foo),[]),Call(Id(HCMUT),Id($goo),[IntLit(1),IntLit(2)])]))])])

@@ -1,0 +1,7 @@
+
+        Class Program {
+            foo(a,b: Int; c: IntZero) {}
+            foo1() {}
+            foo2(c: Float) {}
+        }
+        

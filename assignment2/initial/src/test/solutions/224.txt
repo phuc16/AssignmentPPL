@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(obj),[AttributeDecl(Instance,VarDecl(Id(_obj),IntType,IntLit(0))),AttributeDecl(Instance,VarDecl(Id(_obj_),IntType,IntLit(9)))]),ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([Return(FieldAccess(Self(),Id(arr)))]))])])

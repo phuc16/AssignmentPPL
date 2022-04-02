@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(TFT),[MethodDecl(Id($reRoll),Static,[],Block([If(Id(a),Block([If(Id(b),Block([If(Id(b1),Block([]),If(Id(c),Block([If(Id(d),Block([]),Block([]))])))]))]))]))])])

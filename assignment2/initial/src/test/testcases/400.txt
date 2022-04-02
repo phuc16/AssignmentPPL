@@ -1,0 +1,15 @@
+
+        Class Student {
+            Var x, y: id;
+            Var x, y: id = New id("x"), New id("y");
+            Val x, y: id;
+            Val x, y: id = New id("x"), New id("y");
+            
+            foo() {
+                Var x, y: id;
+                Var x, y: id = New id("x"), New id("y");
+                Val x, y: id;
+                Val x, y: id = New id("x"), New id("y"); 
+            }
+        }
+        

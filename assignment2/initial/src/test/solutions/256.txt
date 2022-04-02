@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(CSGO),[AttributeDecl(Instance,ConstDecl(Id(gunDame),ArrayType(2,ArrayType(2,IntType)),ArrayCell(Id(gun),[ArrayCell(Id(Dame),[IntLit(9)])]))),MethodDecl(Id(setRecoil),Instance,[],Block([Block([Block([Return(Id(recoil))])])]))])])

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([AssignStmt(FieldAccess(Id(Dog),Id(name)),BinaryOp(+.,FieldAccess(Id(Cat),Id(name)),StringLit(1)))]))])])

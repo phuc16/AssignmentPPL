@@ -1,0 +1,6 @@
+
+        Class program {
+            Var x: Array[Array[Int,5], 5];
+            Val y: Array[String, 123_567];
+        }
+        

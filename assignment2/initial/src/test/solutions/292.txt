@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(B),[AttributeDecl(Instance,ConstDecl(Id(b),IntType,IntLit(0))),AttributeDecl(Instance,ConstDecl(Id(a),FloatType,ArrayCell(FieldAccess(CallExpr(FieldAccess(FieldAccess(Self(),Id(a)),Id(b)),Id(c),[]),Id(t)),[IntLit(1)])))])])

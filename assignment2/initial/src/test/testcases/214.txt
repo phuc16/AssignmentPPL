@@ -1,0 +1,9 @@
+
+            Class myVar {
+                Constructor(arr: Array[Float, 3]) {
+                    Self.a = arr[1];
+                    Self.b = arr[2];
+                    Self.c = arr[2][1];
+                }
+            }
+        

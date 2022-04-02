@@ -1,0 +1,9 @@
+
+        Class Program {
+            main() {
+                If(Null) {
+                    Out.print("End");
+                }
+            }
+        }
+        

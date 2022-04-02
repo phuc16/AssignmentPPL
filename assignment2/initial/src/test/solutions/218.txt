@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Meow),[MethodDecl(Id(returnMethod),Instance,[],Block([])),MethodDecl(Id(Constructor),Instance,[],Block([AssignStmt(FieldAccess(Self(),Id(init)),Id(value))])),MethodDecl(Id(Destructor),Instance,[],Block([Call(Id(Mew),Id(EraseAll),[])]))])])

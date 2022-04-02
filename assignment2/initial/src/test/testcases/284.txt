@@ -1,0 +1,20 @@
+
+            Class test {
+                Var t, y: Int = 1, 2;
+                method(a,b,c:Int; r:Func) {
+                    If (a + b > 0) {
+                        Foreach(i In 1 .. 12 By r) {
+                            If (2 + 5) {
+                                If (f >= t) {
+                                    Continue;
+                                }
+                            }
+                        }
+                    }
+                    Elseif (t * 7) {
+                        If (34) { }
+                        Else { Return; }
+                    }
+                }
+            }
+        

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(mini),[MethodDecl(Id(loop),Instance,[param(Id(a),IntType),param(Id(b),FloatType)],Block([For(Id(i),IntLit(0),IntLit(150),BinaryOp(<=,Id(i),IntLit(8)),Block([AssignStmt(Id(sum),BinaryOp(+,Id(sum),ArrayCell(Id(a),[Id(i)])))])])]))])])

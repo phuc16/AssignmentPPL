@@ -1,0 +1,18 @@
+
+            Class BubbleSort {
+                Var arr: Array[Int, 1000000];
+                $sort() {
+                    Var i, j: Int;
+                    Foreach (i In 0 .. n - 1) {
+                        Foreach (j In 0 .. n - i - 1) {
+                            If (arr[j] > arr[j+1]) {
+                                Std.swap(arr[j], arr[j+1]);
+                            }
+                        }
+                    }
+                }
+                set(arr: Array[Int, 1000000]) {
+                    Self.arr = arr;
+                }
+            }
+        

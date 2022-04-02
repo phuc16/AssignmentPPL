@@ -1,0 +1,22 @@
+
+            Class TFT {
+                $reRoll() {
+                    If(a){
+                        If(b){
+                            If(b1)
+                            {
+                                
+                            }
+                            Elseif(c){
+                                If(d){
+                                    
+                                }
+                                Else{
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        

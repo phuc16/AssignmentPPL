@@ -1,0 +1,5 @@
+
+        Class Program {
+            foo(a,b: Int; c: IntZero) {}
+        }
+        

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([]))]),ClassDecl(Id(Meo),Id(Dog),[MethodDecl(Id($get),Static,[],Block([AssignStmt(FieldAccess(Self(),Id(name)),FieldAccess(Id(Dog),Id($name)))]))])])

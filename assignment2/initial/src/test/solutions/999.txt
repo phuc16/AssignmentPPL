@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Laptop),Id(PC),[AttributeDecl(Instance,ConstDecl(Id(mainboard),ClassType(Id(board)),NullLiteral())),AttributeDecl(Instance,ConstDecl(Id(RAM),ClassType(Id(ram)),NullLiteral())),MethodDecl(Id(start_up),Instance,[],Block([Return(BinaryOp(+,BinaryOp(+,StringLit(Hi),FieldAccess(Id(pc),Id(name))),StringLit(Windows is booting)))]))])])

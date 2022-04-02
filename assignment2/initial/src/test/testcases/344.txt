@@ -1,0 +1,5 @@
+
+        Class Program {
+            Var x,y: Int = 0x26_43275_489_5ABCDEF, 0b1010_1010_010101;
+        }
+        

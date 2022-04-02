@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([]))]),ClassDecl(Id(class1),[AttributeDecl(Instance,VarDecl(Id(name),StringType))]),ClassDecl(Id(class2),[AttributeDecl(Static,ConstDecl(Id($height),FloatType,FloatLit(1.75)))])])

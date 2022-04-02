@@ -1,0 +1,7 @@
+
+        Class Program {
+            main(a,b,c: Int) {
+                Return New A(a,b,c);
+            }
+        }
+        

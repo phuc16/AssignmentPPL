@@ -1,0 +1,12 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Class TFT {
+                main() {
+                    nameLen = name[0];
+                }
+            }
+        

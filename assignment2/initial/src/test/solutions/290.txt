@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Note),[MethodDecl(Id(m),Instance,[],Block([AssignStmt(Id(a),ArrayCell(Id(name),[IntLit(0)])),AssignStmt(Id(b),ArrayCell(FieldAccess(Id(age),Id(len)),[IntLit(1),IntLit(2)])),AssignStmt(Id(c),ArrayCell(CallExpr(CallExpr(Id(age),Id($Len),[]),Id(t),[]),[IntLit(2)]))]))])])

@@ -1,0 +1,7 @@
+
+            Class TFT {
+                leftClick() {
+                    Market.round[1] = Self.reRoll().setPool.random();
+                }
+            }
+        

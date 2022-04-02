@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Dog),[AttributeDecl(Instance,VarDecl(Id(name),IntType)),AttributeDecl(Instance,VarDecl(Id(age),IntType,IntLit(20)))]),ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([]))])])

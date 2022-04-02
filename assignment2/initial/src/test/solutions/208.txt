@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(MyClass),[AttributeDecl(Instance,VarDecl(Id(name),StringType)),AttributeDecl(Instance,VarDecl(Id(age),IntType,IntLit(0))),MethodDecl(Id($printName),Static,[],Block([Call(Id(Out),Id(print),[FieldAccess(Self(),Id(name))])])),MethodDecl(Id(setAge),Instance,[param(Id(_age),IntType)],Block([AssignStmt(FieldAccess(Self(),Id(age)),Id(_age))]))])])

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(ReString),[AttributeDecl(Instance,VarDecl(Id(string),ClassType(Id(Student)),NewExpr(Id(ReString),[StringLit(Bao)])))])])

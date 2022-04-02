@@ -1,0 +1,28 @@
+
+            Class Program {
+                main() {
+                    LeapYear::$check(1990);
+                }
+            }
+            Class LeapYear {
+                $check(year: Int) {
+                    Var year: Int;
+                    If (year % 4 == 0) {
+                        If (year % 100 == 0) {
+                            If (year % 400 == 0) {
+                                console.log(year, "is a leap year");
+                            }
+                            Else {
+                                console.log(year, "is not a leap year");
+                            }
+                        }
+                        Else {
+                            console.log(year, "is a leap year");
+                        }
+                    }
+                    Else {
+                        console.log(year, "is not a leap year");
+                    }
+                }
+            }
+            

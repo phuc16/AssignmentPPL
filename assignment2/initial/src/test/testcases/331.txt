@@ -1,0 +1,13 @@
+
+        Class Program {
+            main() {
+                x = Array(
+                    Array(
+                        Array(1, 22, 18),
+                        Array(2,5,2)
+                    ),
+                    Array(3,17,15)
+                );
+            }
+        }
+        

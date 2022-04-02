@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([ConstDecl(Id(first),IntType,Id(MAS_SIZE)),ConstDecl(Id(second),IntType,Id(MAX_SIZE)),VarDecl(Id(i),IntType),VarDecl(Id(num),IntType),For(Id(i),IntLit(0),BinaryOp(-,Id(num),IntLit(1)),IntLit(1),Block([AssignStmt(Id(i),BinaryOp(+,Id(i),IntLit(1)))])]),Return(IntLit(0))]))])])

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(method),[MethodDecl(Id($getName),Static,[],Block([Call(Id(Out),Id(print),[FieldAccess(Id(B),Id($name))]),Return(FieldAccess(Id(C),Id(get)))]))])])

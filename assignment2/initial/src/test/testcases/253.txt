@@ -1,0 +1,6 @@
+
+            Class CSGO{ 
+                Var agentAccelerate: Float = 0xA001;
+                Val $confirmKill, $confirmDeath: Boolean = True, True;
+            }
+        

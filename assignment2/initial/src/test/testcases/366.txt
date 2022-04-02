@@ -1,0 +1,9 @@
+
+        Class Program {
+            main() {
+                Val x: Int;
+                Val y: Float;
+                Val z: String;
+            }
+        }
+        

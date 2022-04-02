@@ -1,0 +1,6 @@
+
+            Class Roll {
+                Val lucky: Float = 0.1;
+                Val _1star: Float = Self.round().money().t[1];
+            }
+        

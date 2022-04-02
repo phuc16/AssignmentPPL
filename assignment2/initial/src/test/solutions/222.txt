@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(myFunc),[MethodDecl(Id(func),Instance,[param(Id(s),IntType),param(Id(r),StringType)],Block([Return(CallExpr(Id(Stand),Id(Str),[BinaryOp(+,Id(s),Id(r))]))]))]),ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([]))])])

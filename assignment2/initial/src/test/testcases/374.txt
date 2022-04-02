@@ -1,0 +1,10 @@
+
+        Class Program {
+            Constructor() {
+            }
+            main() {
+                y = New X();
+                Return 0;
+            }
+        }
+        

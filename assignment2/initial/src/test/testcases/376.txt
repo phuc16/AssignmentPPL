@@ -1,0 +1,10 @@
+
+        Class Program {
+            get() {
+                Return x;
+            }
+            set(_x: String) {
+                x = _x;
+            }
+        }
+        

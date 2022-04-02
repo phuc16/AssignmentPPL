@@ -1,0 +1,17 @@
+
+        Class Program {
+            main() {
+                Val i: Int = 10;
+                Foreach(i In 0 .. end) {
+                    i = i * 10;
+                    i = i + (num%10);
+                }
+                If(i == rev) {
+                    Out.printl(a);
+                }
+                Else {
+                    Return;
+                }
+            }
+        }
+        

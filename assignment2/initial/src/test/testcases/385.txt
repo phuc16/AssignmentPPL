@@ -1,0 +1,24 @@
+
+            Class SelectionSort {
+                swap(xp: Int; yp: Int) {
+                    Var temp: Int = xp;
+                    xp = yp;
+                    yp = temp;
+                }
+                selectionSort(arr: Array[Int, 100]; n: Int) {
+                    Var i, j, min_idx: Int;
+                    ##This is comment##
+                    Foreach (i In 0 .. n - 1 By 1) {
+                        ##Find minimum element in array that hasn't been sorted##
+                        min_idx = i;
+                        Foreach (j In i+1 .. n By 1) {
+                            If (arr[j] < arr[min_idx]) {
+                                min_idx = j;
+                            }
+                        }
+                        ##swap minimum element with first element##
+                        Self.swap(arr[min_idx], arr[i]);
+                    }
+                }
+            }
+            

@@ -1,0 +1,9 @@
+
+        Class Program {
+            main() {
+                a = Shape::$foo;
+                b = Shape.length;
+                c = Shape::$width.area;
+            }
+        }
+        

@@ -1,0 +1,8 @@
+
+        Class Program {
+            main() {
+                HCMUT::$foo();
+                HCMUT::$goo(1,2);
+            }
+        }
+        

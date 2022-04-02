@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([VarDecl(Id(a),ArrayType(4,FloatType)),VarDecl(Id(b),ArrayType(4,FloatType))]))]),ClassDecl(Id(lop),[MethodDecl(Id(attr),Instance,[param(Id(a),IntType),param(Id(b),IntType)],Block([Return(BinaryOp(!=,ArrayCell(Id(a),[IntLit(4)]),ArrayCell(Id(b),[IntLit(1)])))]))])])

@@ -1,0 +1,8 @@
+
+            Class TFT {
+                game() {
+                    Var HP, Player: Int = 100, 8;
+                    HP = (Player[0]).getHP();
+                }
+            }
+        

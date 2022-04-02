@@ -1,0 +1,5 @@
+
+        Class Program {
+            Var x,y,z: Float = 123_567_8.e1, 12345_6e+1, 0.;
+        }
+        

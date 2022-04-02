@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[AttributeDecl(Instance,VarDecl(Id(b),IntType,BinaryOp(+,BinaryOp(+,ArrayCell(CallExpr(Id(A),Id($f),[]),[IntLit(1)]),BinaryOp(*,CallExpr(Id(a),Id(g),[]),IntLit(4))),UnaryOp(!,Id(y))))),AttributeDecl(Instance,VarDecl(Id(a),ClassType(Id(Stu)),NewExpr(Id(Teach),[NewExpr(Id(Stu),[])])))])])

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([]))]),ClassDecl(Id(Name),[MethodDecl(Id(hello),Instance,[param(Id(s1),StringType),param(Id(s2),StringType),param(Id(s3),StringType)],Block([Return(CallExpr(Id(Str),Id(concat),[Id(s1),Id(s2),Id(s3)]))]))])])

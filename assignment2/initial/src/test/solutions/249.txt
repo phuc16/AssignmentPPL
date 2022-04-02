@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Champions),[MethodDecl(Id(method),Instance,[],Block([Return(BinaryOp(+,ArrayCell(Id(Champs),[Id(Q),Id(K),Id(A)]),ArrayCell(CallExpr(Id(Champ),Id(name),[]),[IntLit(0)])))]))])])

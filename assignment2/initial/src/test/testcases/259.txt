@@ -1,0 +1,7 @@
+
+            Class i {
+                method() {
+                    a = Self.age + 34 - 9 * B.getString();
+                }
+            }
+        

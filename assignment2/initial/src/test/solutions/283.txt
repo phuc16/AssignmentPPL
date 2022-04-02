@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Soc),[MethodDecl(Id(function),Instance,[],Block([Return(BinaryOp(+,CallExpr(Id(A),Id($name),[]),CallExpr(Id(A),Id(t),[])))]))])])

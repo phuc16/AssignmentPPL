@@ -1,0 +1,10 @@
+
+            Class obj {
+                Var _obj, _obj_: Int = 0, 9;
+            }
+            Class Program {
+                main() {
+                    Return Self.arr;
+                }
+            }
+        

@@ -1,0 +1,10 @@
+
+            Class Program {
+                getName() {
+                    Var b: Float = 0.3;
+                }
+                main() {
+                    Var a: Int;
+                }
+            }
+            

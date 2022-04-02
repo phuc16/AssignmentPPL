@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(TFT),[MethodDecl(Id(leftClick),Instance,[],Block([AssignStmt(ArrayCell(FieldAccess(Id(Market),Id(round)),[IntLit(1)]),CallExpr(FieldAccess(CallExpr(Self(),Id(reRoll),[]),Id(setPool)),Id(random),[]))]))])])

@@ -1,0 +1,7 @@
+
+        Class Program {
+            main() {
+                Foreach(it In t.begin() .. it != t.end() By it + 1) {}
+            }
+        }
+        

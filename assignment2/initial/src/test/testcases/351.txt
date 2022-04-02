@@ -1,0 +1,16 @@
+
+        Class Program {
+            main() {
+                If (x > 0) {
+                    If(x > 1) {
+                        If (x > 2) {
+                            x = 3;
+                        }
+                    }
+                    Else {
+                        x = 1;
+                    }
+                } 
+            }
+        }
+        

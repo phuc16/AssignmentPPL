@@ -1,0 +1,7 @@
+
+        Class Program {
+            main() {
+                a = Self.method + New Shape() + (1*2-3);
+            }
+        }
+        

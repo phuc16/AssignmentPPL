@@ -1,0 +1,7 @@
+
+        Class Program {
+            main() {
+                a = Self.foo(1,2).goo();
+            }
+        }
+        

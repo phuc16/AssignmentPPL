@@ -1,0 +1,9 @@
+
+        Class Program {
+            main() {
+                arr[2] = arr[3];
+                arr[1][2] = "HCMUT";
+                arr[2][3][4] = "HCMUT";
+            }
+        }
+        

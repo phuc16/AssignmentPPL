@@ -1,0 +1,13 @@
+
+        Class Program {
+            main() {
+                Val first, second: Int = MAS_SIZE, MAX_SIZE;
+                Var i,num: Int;
+                Foreach(i In 0 .. num-1)
+                {
+                    i = i + 1;
+                }
+                Return 0;
+            }
+        }
+        

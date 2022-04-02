@@ -1,0 +1,7 @@
+
+            Class TFT{
+                reRoll() {
+                    a = (name - 2 / -4) % (0b1) - "Glasc" ==. "Renata";
+                }
+            }
+        

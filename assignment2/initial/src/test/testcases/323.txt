@@ -1,0 +1,5 @@
+
+        Class Program {
+            Var x,y,z,t: Float = 0.2, .e-1, .2e1, 10.0;
+        }
+        

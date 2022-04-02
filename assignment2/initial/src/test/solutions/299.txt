@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id($method),Static,[],Block([For(Id(i),UnaryOp(-,IntLit(3)),UnaryOp(-,IntLit(1)),UnaryOp(-,IntLit(100)),Block([For(Id(j),IntLit(0),UnaryOp(-,IntLit(255)),IntLit(1),Block([VarDecl(Id(a),FloatType,FloatLit(0.2))])])])])]))])])

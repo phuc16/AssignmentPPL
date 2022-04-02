@@ -1,0 +1,7 @@
+
+            Class League {
+                getVersion() {
+                    Return Self.name(i) || Self.Skill;
+                }
+            }
+        

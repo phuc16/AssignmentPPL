@@ -1,0 +1,26 @@
+
+        Class BinarySearch {
+            binarySearch(arr: Array[Int, 100]; l: Int; r: Int; x: Int) {
+                If (r >= l) {
+                    Var mid: Int = l + (r - l) / 2;
+                    ## If the element is present at the middle itself ##
+                    If (arr[mid] == x) {
+                        Return mid;
+                    }
+            
+                    ## If element is smaller than mid, then ##
+                    ## it can only be present in left subarray ##
+                    If (arr[mid] > x) {
+                        Return Self.binarySearch(arr, l, mid - 1, x);
+                    }
+            
+                    ## Else the element can only be present ##
+                    ## in right subarray ##
+                    Return Self.binarySearch(arr, mid + 1, r, x);
+                }
+            
+                ## We reach here when element is not ##
+                ## present in array ##
+                Return -1;
+            }
+        }

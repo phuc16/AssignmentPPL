@@ -1,0 +1,8 @@
+
+        Class Program {
+            main() {
+                a = 0x12AF;
+                b = 0B1010;
+            }
+        }
+        

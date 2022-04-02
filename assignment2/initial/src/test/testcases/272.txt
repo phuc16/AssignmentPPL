@@ -1,0 +1,15 @@
+
+            Class Program{
+                main(){
+                    
+                }
+            }
+            Class Fornite:Program{
+                
+            }
+            Class Char : Fortnite{
+                voice() {
+                    Var stringVoice: String;
+                }
+            }
+        

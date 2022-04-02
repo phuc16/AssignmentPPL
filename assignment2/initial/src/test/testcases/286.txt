@@ -1,0 +1,12 @@
+
+            Class MyClass {
+                Var $a: Int = 0; ## This is comment ##
+                Method () {
+                    Self.constructor(a,b,c);
+                    name.method();
+                    If (r) {
+                        Return t; ##This is also a comment##
+                    }
+                }
+            }
+        

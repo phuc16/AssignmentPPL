@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([AssignStmt(FieldAccess(Id(a),Id(count)),[IntLit(1),IntLit(2)]),AssignStmt(FieldAccess(Self(),Id(count)),[[IntLit(1),IntLit(2)]])]))])])

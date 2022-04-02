@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Fortnite),[MethodDecl(Id(method1),Instance,[],Block([])),MethodDecl(Id(method2),Instance,[],Block([])),MethodDecl(Id(main),Instance,[],Block([])),MethodDecl(Id(main),Instance,[param(Id(a),IntType),param(Id(b),IntType)],Block([]))])])

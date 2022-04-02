@@ -1,0 +1,5 @@
+
+        Class Program {
+            Var x,y,z: String = Null, Null, Null;
+        }
+        

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(CSGO),[MethodDecl(Id(bunny),Instance,[],Block([Call(CallExpr(CallExpr(Self(),Id(speed),[]),Id(acce),[]),Id(map),[])]))])])

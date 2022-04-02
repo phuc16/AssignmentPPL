@@ -1,0 +1,63 @@
+
+        Class QuickSort : Sort
+        {
+            $partition(arr : Array[Int, 10]; start, end : Int)
+            {
+                Var pivot : Int = arr[start];
+                Var count : Int = 0;
+                Foreach (i In start + 1 .. end + 1 By 1)
+                {
+                    If (arr[i] <= pivot)
+                    {
+                        count = count + 1;
+                    }
+                }
+                Var pivotIndex : Int = start + count;
+                Swap::$swap(arr[pivotIndex], arr[start]);
+                Var i : Int = start;
+                Var j : Int = end;
+                Foreach (k In 1 .. 100)
+                {
+                    If (arr[i] <= pivot)
+                    {
+                        i = i + 1;
+                    }
+                    If (arr[j] > pivot)
+                    {
+                        j = j - 1;
+                    }
+                    If (!((i < pivotIndex) && (j > pivotIndex)))
+                    {
+                        Break;
+                    }
+                    Else
+                    {
+                        i = i + 1;
+                        j = j - 1;
+                        Swap::$swap(arr[i], arr[j]);
+                    }
+                }
+                Return pivotIndex;
+            }
+            $quickSort(arr : Array[Int, 10]; start, end : Int)
+            {
+                If (start >= end)
+                {
+                    Return ;
+                }
+                Var p : Int = QuickSort::$partition(arr, start, end);
+                QuickSort::$quickSort(arr, start, p - 1);
+                QuickSort::$quickSort(arr, p + 1, end);
+            }
+            $print()
+            {
+                Var arr : Array[Int, 10] = Array(9,3,4,2,1,8,4,9,5,6);
+                Var n : Int = 6;
+                QuickSort::$quickSort(arr, 0, n - 1);
+                Foreach (i In 0 .. n By 1)
+                {
+                    System::$print(arr[i]);
+                }
+                Return 0;
+            }
+        }

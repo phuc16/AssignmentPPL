@@ -1,0 +1,12 @@
+
+        Class Program {
+            main() {
+                If(a.b()) {
+                    Out.print("Hello World");
+                }
+                Elseif(!a.b()) {
+
+                }
+            }
+        }
+        

@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(Program),[MethodDecl(Id(main),Static,[],Block([]))]),ClassDecl(Id(Par),[AttributeDecl(Instance,VarDecl(Id(con),StringType)),AttributeDecl(Instance,VarDecl(Id(me),FloatType,FloatLit(0.2))),MethodDecl(Id($get),Static,[],Block([Call(FieldAccess(Id(Local),Id(Store)),Id(sieuthi),[])]))])])

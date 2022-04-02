@@ -1,0 +1,7 @@
+
+        Class Program {
+            Var x: PPL;
+            Var y: Assignment1;
+            Var z: Assignment2;
+        }
+        

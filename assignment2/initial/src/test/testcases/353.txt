@@ -1,0 +1,12 @@
+
+        Class Program {
+            main() {
+                Foreach(i In 1 .. 2 By 3) {
+                    sum = sum + i;
+                }
+                Foreach(i In y .. 10 By z) {
+                    sum = sum + i;
+                }
+            }
+        }
+        

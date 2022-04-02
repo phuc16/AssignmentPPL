@@ -1,0 +1,1 @@
+Program([ClassDecl(Id(CSGO),[AttributeDecl(Instance,VarDecl(Id(agentAccelerate),FloatType,IntLit(40961))),AttributeDecl(Static,ConstDecl(Id($confirmKill),BoolType,BooleanLit(True))),AttributeDecl(Static,ConstDecl(Id($confirmDeath),BoolType,BooleanLit(True)))])])
