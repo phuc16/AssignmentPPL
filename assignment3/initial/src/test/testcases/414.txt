@@ -1,0 +1,15 @@
+
+        Class Program {main(){}}
+        Class A {
+            Var z: Int;
+            getA(a: Int) {
+                Var b: Int;
+                Foreach (b In 1 .. 100) {
+                    If (b + 4) { }
+                    Else { Var e: String; }
+                }
+            }
+            Constructor () { }
+            Destructor () { }
+        }
+        

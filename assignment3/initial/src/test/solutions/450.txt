@@ -1,0 +1,1 @@
+Type Mismatch In Expression: ArrayCell(FieldAccess(Self(),Id(data)),[IntLit(1),IntLit(2)])

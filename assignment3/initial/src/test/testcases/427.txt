@@ -1,0 +1,36 @@
+
+        Class Animal{
+            Var $name : String = "aaaaa";
+            Var sex : String = "Male";
+            Constructor(name : String) {
+                
+            }
+            Destructor() { }
+        }
+        Class Meo : Animal{
+            Var $e : Int = 6;
+            Constructor (a : Float; b : Int) { }
+            Destructor() { }
+        }
+        Class Dog : Animal{
+            Var $meo : Meo = New Meo(5.6, 7);
+            Var $a : Int = 5 + 6 - 7 * 8;
+            Var $b : Float = Dog::$a;
+            Var $c : Int = Dog::$a - 8;
+            Var $d : Float = Dog::$a * Dog::$b;
+            Var $e : String = Animal::$name;
+            Var d : String = "Hello";
+            Var e : String = Self.d;
+            Var meomeo : Int = (Meo::$e - 89) * 9600;
+            Var $arr : Array[Int, 5];
+            Var $arr2 : Array[Int, 6] = Array(1, 2, 3, 4, 5, 6);
+            Constructor(name : String) { }
+            Bark(a, b, c : String; d, e, f : Float) { }
+            Destructor() { }
+            Val $ffff : Meo = New Animal("Cat");
+        }
+        
+        Class Program {
+            main () { }
+        }
+        

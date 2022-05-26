@@ -1,0 +1,20 @@
+
+        Class Program {
+            main() { }
+        }
+        Class Queue {
+            Var data: Array[Int, 100000];
+            front() {
+                Return Self.data[0];
+            }
+            push(d: Int) {
+                Var newArr : Array[Int, 100000];
+                newArr[0] = d;
+                Foreach (i In 1 .. 100001) {
+                    newArr[i] = Self.data[i-1];
+                }
+                Self.data = newArr;
+            }
+        }
+        
+        

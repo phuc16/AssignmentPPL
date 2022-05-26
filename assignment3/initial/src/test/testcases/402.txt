@@ -1,0 +1,8 @@
+
+        Class Program {main(){}}
+        Class A {
+            Val $a: Int = 2 + True;
+            Constructor () { }
+            Destructor () { }
+        }
+        

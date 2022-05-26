@@ -1,0 +1,45 @@
+
+        Class D {
+            Constructor() {}
+            Destructor() {}
+            Var d1 : D = New D();
+            Var d2 : D = New D();
+            func()
+            {
+                Return New D();
+            }
+            Lucy(a : String; position : Int)
+            {
+                Return "a" +. a;
+            }
+        }
+        Class C {
+            Constructor() { }
+            Destructor () { }
+            Var c1 : C = New C();
+            Var c2 : String = "4";
+            Var c3 : D = New D();
+            func()
+            {
+                Return Self.c3;
+            }
+        }
+        Class A{
+            Constructor () { }
+            Destructor () { }
+            Var a1 : A = New A();
+            Var a2 : C = New C();
+            func()
+            {
+                Return Self.a2;
+            }
+            test()
+            {
+                Var d : String = Self.func().c1.func().func().d1.d2.Lucy("Tracy", 21);
+                Var a : A = New A();
+                Var e : String = a.func().c1.func().func().d1.d2.Lucy("Lucy", 20);
+                Var f : String = a.func().c1.func().func().d1.Lucy(e, 5.5);
+                Return 2;
+            }
+        }
+        

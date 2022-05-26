@@ -1,0 +1,15 @@
+
+        Class D {$getD(a, b: Int) { Return "Hello From D"; }
+        Constructor () { }
+            Destructor () { }}
+        Class C : D {getC(a: Int; b: Float) {Return 3;}
+        Constructor () { }
+            Destructor () { }}
+        Class A {method() {
+                Var c: C;
+                Var b: Int;
+                b = D::$getD(1,2);}
+                Constructor () { }
+            Destructor () { }}
+        Class Program {main(){}}
+        

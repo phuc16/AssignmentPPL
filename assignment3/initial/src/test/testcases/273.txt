@@ -1,0 +1,8 @@
+
+            Class Fortnite {
+                method1() { }
+                method2() { }
+                main() { }
+                main(a,b: Int) { }
+            }
+        

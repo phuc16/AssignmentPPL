@@ -1,0 +1,12 @@
+
+        Class E {
+            Var e: Int;
+            Constructor (a: Int; b: Float) {
+                Return;
+            }
+            Destructor () { }
+        }
+        Class D {
+            Var a: Int = E.e;
+        }
+        

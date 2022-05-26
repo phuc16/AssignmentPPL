@@ -1,0 +1,14 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Class Par {
+                Var con: String;
+                Var me: Float = 0.2;
+                $get() {
+                    Local.Store.sieuthi();
+                }
+            }
+        

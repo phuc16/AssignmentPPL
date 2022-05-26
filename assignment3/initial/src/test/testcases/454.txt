@@ -1,0 +1,13 @@
+
+        Class A { }
+        Class E {
+            Var a : Int;
+            Constructor(a: A) { }
+        }
+        Class Program {
+            main() {
+                Val a: Int = 3;
+                Val a: Float = 4.5;
+            }
+        }
+        

@@ -1,0 +1,13 @@
+
+        Class A {
+            Constructor (a: Int; b: Float) {
+                Return;
+            }
+            Destructor () { 
+                Return;
+            }
+        }
+        Class D {
+            Var a: A = New A();
+        }
+        

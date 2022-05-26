@@ -1,0 +1,12 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Class B {
+                Constructor(a,b,c: Int) {
+                    Return Self.a + b + 4;
+                }
+            }
+        

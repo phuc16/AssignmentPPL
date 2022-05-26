@@ -1,0 +1,5 @@
+
+            Class myClass {
+                Val a: Int = Main.a.get();
+            }
+        

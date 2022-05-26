@@ -1,0 +1,12 @@
+
+        Class Program {
+            main() { Return; }
+        }
+        Class Largest {
+            Var a: Int = 2;
+            $main(args: Array[String, 10000]) {
+                Var a: Array[Int, 2] = Array(Self.a, 3);
+                Val c: Int = a[1];
+            }
+            }
+        

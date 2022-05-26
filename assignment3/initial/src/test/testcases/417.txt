@@ -1,0 +1,22 @@
+
+        Class D {
+            Var d : Int = 2 + 4 + 6 * 7;
+            Constructor () { }
+            Destructor () { }
+        }
+        Class Program {main(){}}
+        Class C {
+            Var c: Float = 5.2;
+            Constructor(t: Float; c: String) {}
+            Destructor () { }
+        }
+        Class A {
+            Var b: Float = 3.4;
+            getA(a: Float) {
+                Var Cobj: C = New C(3.4, "Hello");
+                a = Self.b + Cobj.c * D.d;
+            }
+            Constructor () { }
+            Destructor () { }
+        }
+        

@@ -1,0 +1,11 @@
+
+            Class Champions{
+                Var Name : String;
+                Var Skill : Array[String, 4];
+            }
+            Class Yasuo {
+                getHP() {
+                    Return Self.HP;
+                }
+            }
+        

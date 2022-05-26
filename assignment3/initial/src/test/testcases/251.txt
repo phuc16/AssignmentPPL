@@ -1,0 +1,8 @@
+
+            Class CSGO {
+                bunny(){
+                    Self.speed().acce().map();
+                } 
+            }
+            
+        

@@ -1,0 +1,35 @@
+
+        Class E {
+            Var e: Int;
+            Constructor (a: Int; b: Float) {
+                Return;
+            }
+            Destructor () {
+                Return;
+            }
+        }
+        Class D {
+            main() {
+                Var i: Int = 2;
+                Foreach(i In -1 .. 100) {
+                    If (i > 3) {
+                        Var j: Int = 4;
+                        Foreach (j In -5 .. 9) {
+                            If ((i > j) && (i + j == 9)) {
+                                Break;
+                            }
+                            Elseif (i < j) {
+                                Continue;
+                            }
+                            Return 12;
+                        }
+                    }
+                }
+            }
+        }
+        Class B {
+            Var d: D;
+            Var b: Int = Self.d.main();
+        }
+        Class Program{main(){}}
+        

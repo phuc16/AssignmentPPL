@@ -1,0 +1,13 @@
+
+        Class D {
+            main() {
+                Var a:Int=3;
+                Var b: Array[Int,2]=Array(a,2);
+                Val c:Int = b[1];
+            }
+        }
+        Class E {
+            Var d: D;
+            Var e: Int = Self.d.main();
+        }
+        

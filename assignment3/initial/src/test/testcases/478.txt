@@ -1,0 +1,15 @@
+
+        Class Program {
+            Var d: Int;
+            main() { }
+            Constructor (a: Int; b: Int; c: Int) { }
+        }
+        Class B {
+            Val c: B = New B();
+            Var d: Boolean = True;
+            Var a: Program;
+            getB() {
+                Self.d = B.d;
+            }
+        }
+        

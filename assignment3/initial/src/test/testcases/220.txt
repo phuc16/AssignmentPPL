@@ -1,0 +1,28 @@
+
+            Class ari {
+                Constructor(a, b : Int)
+                {
+                    Out.print("Contructor");
+                }
+                Destructor()
+                {
+                    Out.print("Destructor");
+                }
+                $_getMethod() {
+                    Return 12 + 1.2 - c + !b >= 8 || 4 || (a + b);
+                }
+            }
+            Class Program {
+                Constructor(a, b : Int)
+                {
+                    Out.print("Contructor");
+                }
+                Destructor()
+                {
+                    Out.print("Destructor");
+                }
+                main() {
+                    a = (myConst + b) && a + b + abcde;
+                }
+            }
+        

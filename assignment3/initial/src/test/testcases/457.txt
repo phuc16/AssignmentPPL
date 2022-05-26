@@ -1,0 +1,19 @@
+
+        Class A { }
+        Class Program {
+            main() {
+                Val a: Array[Array[Array[Int,2],2],2]
+                = Array(
+                    Array(
+                        Array(1,2),
+                        Array(1,2)
+                    ),
+                    Array(
+                        Array(2,3),
+                        Array(5,7)
+                    )
+                );
+                a = Array(5,6);
+            }
+        }
+        

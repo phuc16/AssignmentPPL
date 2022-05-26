@@ -1,0 +1,17 @@
+
+        Class Node {
+            Var data: Int;
+            Var next: Node;
+            Constructor(data: Int) {
+                Self.data = data;
+            }
+        }
+
+        Class LinkedList {
+            Var head: Node;
+            insertHead(data: Int) {
+                Self.head = New Node();
+            }
+        }
+        
+        

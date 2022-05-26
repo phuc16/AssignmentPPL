@@ -1,0 +1,28 @@
+
+        Class D {
+            main() {
+                Var i: Int = 2;
+                Foreach(i In -1 .. 100) {
+                    Var j: Int = 4;
+                    Foreach (j In -5 .. 9) {
+                        Return 12;
+                    }
+                    Var k: Int;
+                    Foreach (j In 10 .. 20) { 
+                        Continue;
+                        Foreach (k In 12 .. 234) { 
+                            Break; 
+                            Foreach (i In 10 .. 100) { 
+                                Return "String";
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+        Class E {
+            Var d: D;
+            Var e: Int = Self.d.main();
+        }
+        

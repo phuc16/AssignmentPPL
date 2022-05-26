@@ -1,0 +1,10 @@
+
+        Class Program {
+            Constructor(a: Int; b: Float; c: String; d: Boolean) { }
+        }
+
+        Class A : Program {
+            Var a : Program = New Program(1,2,"Name" ==. "Bao",False && True);
+        }
+        
+        

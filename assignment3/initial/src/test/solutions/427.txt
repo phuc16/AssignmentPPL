@@ -1,0 +1,1 @@
+Type Mismatch In Constant Declaration: ConstDecl(Id($ffff),ClassType(Id(Meo)),NewExpr(Id(Animal),[StringLit(Cat)]))

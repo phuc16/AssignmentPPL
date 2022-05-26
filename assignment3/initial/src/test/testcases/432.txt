@@ -1,0 +1,15 @@
+
+        Class Program {
+            main() { }
+        }
+        Class Animal {
+            Var d: String = "Hello" +. " World";
+            Var e: Boolean = (2 > 4) && !(2 < 9);
+            Var a: Animal;
+            Var b: Int = 2 + 5 * 7;
+            Var c: Float = 2 * 7 + 4.5 - e4;
+            Constructor () { }
+            Destructor () { }
+        }
+        
+        

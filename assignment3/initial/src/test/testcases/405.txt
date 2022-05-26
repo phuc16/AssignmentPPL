@@ -1,0 +1,10 @@
+
+        Class Program {main(){}}
+        Class A { }
+        Class B: A {
+            Var t: Float = 1.4 % 3; 
+            setA(a: Int) { }
+            Constructor () { }
+            Destructor () { }
+        }
+        

@@ -1,0 +1,18 @@
+
+        Class B { 
+            Constructor() { }
+        }
+        Class A : B {
+            Val arr: Array[Array[Int, 2], 2] = Array(
+                Array(2,3),
+                Array(4,5)
+            );
+            getA() {
+                Self.arr = Array(
+                Array(2,6),
+                Array(4,5)
+            );
+            }
+        }
+        
+        

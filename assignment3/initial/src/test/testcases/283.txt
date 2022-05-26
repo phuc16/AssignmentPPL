@@ -1,0 +1,7 @@
+
+            Class Soc {
+                function() {
+                    Return A::$name() + A.t();
+                }
+            }
+        

@@ -1,0 +1,1 @@
+Type Mismatch In Expression: NewExpr(Id(Program),[IntLit(1),IntLit(2),BinaryOp(==.,StringLit(Name),StringLit(Bao)),BinaryOp(&&,BooleanLit(False),BooleanLit(True))])

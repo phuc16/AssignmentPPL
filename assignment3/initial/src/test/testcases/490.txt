@@ -1,0 +1,11 @@
+
+        Class A {
+            Constructor () {
+                Return 45;
+            }
+            Destructor () { }
+        }
+        Class D {
+            Var a: A = New A();
+        }
+        

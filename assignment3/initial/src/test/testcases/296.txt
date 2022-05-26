@@ -1,0 +1,5 @@
+
+            Class ReString {
+                Var string: Student = New ReString("Bao");
+            }
+        

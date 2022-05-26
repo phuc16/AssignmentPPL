@@ -1,0 +1,12 @@
+
+            Class Program {
+                main(){}
+            }
+
+            Class class1 {
+                Var name: String;
+            }
+            Class class2 {
+                Val $height: Float = 1.75;
+            }
+        

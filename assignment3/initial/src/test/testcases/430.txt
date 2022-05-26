@@ -1,0 +1,31 @@
+
+        Class Unit 
+        {
+            Constructor (a : Int; b : String){ }
+            Destructor () { }
+        }
+        Class Character : Unit
+        {
+            Constructor () { }
+            Destructor () { }
+        }
+        Class Player : Character
+        {
+            Constructor (a : Array[Int, 7]; b : Float; c : String){}
+            Destructor(){}
+        }
+        Class Health : Player
+        {
+            Constructor ()
+            {}
+            Destructor(){}
+        }
+        Class Program
+        {
+            Var a : Unit = New Unit(2, "Hieu");
+            Val $b : Character = New Character();
+            Var player :Player  = New Health();
+            main () { }
+            Destructor(){}
+        }
+        

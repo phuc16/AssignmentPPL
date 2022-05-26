@@ -1,0 +1,16 @@
+
+        Class Program {
+            main() { }
+        }
+        Class Stack {
+            Var data: Array[Int, 100000];
+            front() {
+                Return Self.data[0];
+            }
+            delete(d: Int) { }
+            pop() {
+                Self.delete(Self.data[last]);
+            }
+        }
+        
+        

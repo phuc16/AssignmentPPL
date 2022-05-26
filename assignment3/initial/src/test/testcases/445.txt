@@ -1,0 +1,19 @@
+
+        Class Program {
+            Var name: String;
+            Val age : Int = 18;
+            main(a: Int; b: Float) {
+                Val c: Int = 2;
+                Self.name = "Hello";
+                Return Self.name;
+            }
+        }
+        Class Name: Program {
+            Var name: String = "My Name";
+            main() {
+                Var a: Array[Array[Float, 3], 2];
+                a[0] = Array(1,2,4);
+            }
+        }
+        
+        

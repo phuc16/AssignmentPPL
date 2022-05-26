@@ -1,0 +1,7 @@
+
+             Class limitSpeed {
+                newLimit(a: String) {
+                    Return "Limit speed \nat" ;
+                }
+            }
+        

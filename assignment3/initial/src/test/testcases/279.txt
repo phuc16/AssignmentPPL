@@ -1,0 +1,9 @@
+
+            Class Fortnite{
+            Var a: Array[Array[String, 3],3] = Array (
+                Array("Shotgun", "22", "18"),
+                Array("Ak", "5", "2"),
+                Array("Hand gun", "17", "15")
+            );
+        }
+        

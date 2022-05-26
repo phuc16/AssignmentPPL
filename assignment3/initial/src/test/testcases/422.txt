@@ -1,0 +1,17 @@
+
+        Class C {
+            getC(a: Int; b: Float) { }
+            Constructor () { }
+            Destructor () { }
+        }
+        Class Program {main(){}}
+        Class A {
+            method() {
+                Var c: C;
+                Var b: Int;
+                b = c.getC(1,2.4);
+            }
+            Constructor () { }
+            Destructor () { }
+        }
+        

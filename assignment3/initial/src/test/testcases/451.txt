@@ -1,0 +1,14 @@
+
+        Class Dog {
+            Var dogs: Int = 2;
+        }
+        Class Program {
+            Var name: Dog;
+            main(c: Int; b: Float) {
+                Var d: Boolean;
+                Var a: Program;
+                d =  Dog.name.dog;
+            }
+        }
+        
+        

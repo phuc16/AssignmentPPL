@@ -1,0 +1,8 @@
+
+        Class Program {main(){}}
+        Class A {
+            Var a, t, r: Int = 120, 12 * 60 - 9, 1e4;
+            Constructor () { }
+            Destructor () { }
+        }
+        

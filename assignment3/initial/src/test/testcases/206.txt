@@ -1,0 +1,7 @@
+
+            Class Pro {
+                Main(a: Int; b: Int) {
+                    Return a || b < c.get(1,2) && 23 + 1.4;
+                }
+            }
+            

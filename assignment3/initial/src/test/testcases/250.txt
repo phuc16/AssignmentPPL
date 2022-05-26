@@ -1,0 +1,14 @@
+
+            Class Program {
+                main() {
+
+                }
+            }
+            Class B: A {
+                Var a, b: Float = 3.5, 5;
+                main(a: Int) {
+                    Return a;
+                }
+                
+            }
+        

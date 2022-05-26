@@ -1,0 +1,30 @@
+
+        Class Program {
+            main() { }
+        }
+        Class A {
+
+        }
+        Class B {
+            foo() { 
+                Var a,b: Boolean;
+                Var r, pi, t: Int;
+                If (a) {
+                    a = False;
+                }
+                Elseif (b) {
+                    Var c: Int = 8;
+                }
+                Elseif (12 == 8) {
+                    r = 1;
+                    pi = 3;
+                }
+                Elseif (9 > 0) {
+                    r = 6;
+                }
+                Else {
+                    t = a;
+                }
+            }
+        }
+        

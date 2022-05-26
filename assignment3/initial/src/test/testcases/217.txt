@@ -1,0 +1,7 @@
+
+            Class Program {
+                dethod() {
+                    Return Self.method();
+                }
+            }
+        

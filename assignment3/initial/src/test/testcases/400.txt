@@ -1,0 +1,14 @@
+
+        Class Dog {
+            Val $a : Int = 3.2;
+            $getDog() { }
+            Constructor () { }
+            Destructor () { }
+        }
+        Class Meow {
+            $set() { }
+            Constructor () { }
+            Destructor () { }
+        }
+        Class Program {main(){}}
+        

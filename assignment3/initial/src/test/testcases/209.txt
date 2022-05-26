@@ -1,0 +1,9 @@
+
+            Class PPL {
+                Var score: Int = 0x7_45;
+                getScore() {
+                    Self.score(a,b,c);
+                    Return score;
+                }
+            }
+        

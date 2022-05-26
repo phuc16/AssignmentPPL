@@ -1,0 +1,9 @@
+
+            Class Program {
+                Var a: Int = 0;
+                main() {
+                    a = New obj("string 1");
+                    Out.print(a.age);
+                }
+            }
+        

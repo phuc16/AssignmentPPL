@@ -1,0 +1,12 @@
+
+            Class myFunc {
+                func(s: Int; r: String) {
+                    Return Stand.Str(s + r);
+                }
+            }
+            Class Program {
+                main() {
+
+                }
+            }
+        

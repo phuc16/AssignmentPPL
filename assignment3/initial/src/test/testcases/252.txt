@@ -1,0 +1,8 @@
+
+            Class CSGO {
+                fireRate() {
+                    setRate = Gun::$increaseAccord(1,2)[1];
+                    setRecoil = Gun.setAccord()[x][y][z];
+                }
+            }
+        

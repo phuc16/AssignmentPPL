@@ -1,0 +1,8 @@
+
+            Class _R {
+                Val $y: Int = 12;
+                _F() {
+                    Val _, _, _: String = 3, 4, 5;
+                }
+            }
+        

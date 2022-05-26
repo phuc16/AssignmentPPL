@@ -1,0 +1,16 @@
+
+        Class Program {
+            main() { }
+        }
+        Class Stack {
+            Val data: Array[Int, 3] = Array(1);
+            front() {
+                Return Self.data[0];
+            }
+            delete(d: Int) { }
+            assign() {
+                Seld.data[0] = 4;
+            }
+        }
+        
+        

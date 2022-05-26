@@ -1,0 +1,19 @@
+
+        Class Program {
+            Var name: String;
+            Val age : Int = 18;
+            main(a: Int; b: Float) {
+                Val c: Int = 2;
+                Self.name = "Hello";
+                Return Self.name;
+            }
+        }
+        Class Name: Program {
+            Var name: String = "My Name";
+            main() {
+                Self.name = Self.name +. "is Program";
+                Return Self.age + 12 / 5 + (67 % 4);
+            }
+        }
+        
+        

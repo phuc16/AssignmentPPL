@@ -1,0 +1,13 @@
+
+        Class Program {main(){}}
+        Class A {
+            Val $a: Int = 3;
+            Constructor(a: Float; b: Int) { }
+            Destructor () { }
+        }
+        Class B {
+            Val $b: A = New A(1, 3.2);
+            Constructor () { }
+            Destructor () { }
+        }
+        

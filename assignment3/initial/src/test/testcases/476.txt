@@ -1,0 +1,14 @@
+
+        Class Program {
+            Var d: Int;
+            main() { }
+        }
+        Class B {
+            Val c: B = New B();
+            Var d: Boolean = True;
+            Var a: Program;
+            getB() {
+                Self.d = Self.a.d;
+            }
+        }
+        

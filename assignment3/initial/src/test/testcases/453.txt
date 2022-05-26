@@ -1,0 +1,11 @@
+
+        Class A { }
+        Class E {
+            Var a : Int;
+            Constructor(a: A) { }
+        }
+        Class Program {
+            Var b: A;
+            Var a: E = New E(b);
+        }
+        

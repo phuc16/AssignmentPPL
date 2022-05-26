@@ -1,0 +1,13 @@
+
+        Class A {
+            Var $a: Int;
+            Constructor () { }
+            Destructor () { }
+        }
+        Class A {
+            Val $b: Float;
+            Constructor () { }
+            Destructor () { }
+        }
+        Class Program {main(){}}
+        

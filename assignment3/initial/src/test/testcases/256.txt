@@ -1,0 +1,10 @@
+
+            Class CSGO {
+                Val gunDame : Array[Array[Int,2],2] = gun[Dame[0b1001]];
+                setRecoil(){
+                    {
+                        {Return recoil;}
+                    }
+                }
+            }
+        

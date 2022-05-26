@@ -1,0 +1,29 @@
+
+        Class D {
+            getD2() {
+                Return 2.4 / 5;
+            }
+            getD(a, b: Int) { 
+                Return Self.getD2();
+            }
+            Constructor () { }
+            Destructor () { }
+        }
+        Class Program {main(){Return 2.4 / 5;}}
+        Class C : D {
+            getC(a: Int; b: Float) {
+                Return 3;
+            }
+            Constructor () { }
+            Destructor () { }
+        }
+        Class A {
+            method() {
+                Var c: C;
+                Var b: Int;
+                b = c.getC(1,2);
+            }
+            Constructor () { }
+            Destructor () { }
+        }
+        

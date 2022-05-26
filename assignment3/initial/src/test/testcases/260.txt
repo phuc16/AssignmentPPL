@@ -1,0 +1,7 @@
+
+            Class FO4 {
+                createPlayer() {
+                    playerBool[0] = "name" ==. ": age \'";
+                }
+            }
+        

@@ -1,0 +1,6 @@
+
+        Class Program {
+            main() { }
+            main() { Return 2; }
+        }
+        

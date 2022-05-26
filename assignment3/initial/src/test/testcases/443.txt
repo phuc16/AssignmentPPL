@@ -1,0 +1,13 @@
+
+        Class Program {
+            Var name: String;
+            Val age : Int = 18;
+            main(a: Int; b: Float) {
+                Val c: Int = 2;
+                Val d: Float = Self.age + c + a;
+                Self.name = "Hello";
+                Return Self.name;
+            }
+        }
+        
+        
