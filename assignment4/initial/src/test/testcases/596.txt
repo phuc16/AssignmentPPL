@@ -1,0 +1,13 @@
+
+        Class Program {
+            foo(){
+                Return 100;
+            }
+            main(){
+                Var A: Program = New Program();
+                Var B: Program = New Program();
+                Var zoo: Int = A.foo();
+                io::$putInt(zoo + B.foo());
+            }
+        }
+        

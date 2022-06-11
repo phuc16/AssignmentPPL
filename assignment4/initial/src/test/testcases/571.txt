@@ -1,0 +1,8 @@
+
+        Class Program {
+            main(){
+                Var a: Array[Int, 2] = Array(2,3);
+                io::$putIntLn(a[1]);
+            }
+        }
+        

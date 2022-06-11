@@ -1,0 +1,8 @@
+
+        Class Program{
+            main(){
+                Var a:Int = 2;
+                a = 3;
+                io::$putFloatLn(4 / a + 3 / 3 - 2.5);
+            }
+        }

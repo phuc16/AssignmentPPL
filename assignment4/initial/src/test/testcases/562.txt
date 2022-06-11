@@ -1,0 +1,6 @@
+Class Program {
+            main() {
+                Val a:Int = 11;
+                io::$putIntLn(a);
+            }
+        }

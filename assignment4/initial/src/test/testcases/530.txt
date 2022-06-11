@@ -1,0 +1,20 @@
+  
+        Class Program {
+            main () {
+                Var a: Array[Int, 10] = Array(4, 3, 2, 1, 0, 1, 2, 3, 4, 5);
+                Var i: Int;
+                Var j: Int;
+                Foreach (i In 1 .. 10 By 1 + 2){
+                    If (i % 3 == 0) {
+                        io::$putInt(a[i]);
+                    }
+                    Elseif (i % 3 == 1) {
+                        io::$putInt(a[i] * 2);
+                    }
+                    Else {
+                        io::$putInt(a[i] * 3);
+                    }
+                }
+            }
+        }
+        

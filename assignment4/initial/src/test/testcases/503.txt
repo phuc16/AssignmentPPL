@@ -1,0 +1,14 @@
+Class Program {
+            $factorial(n: Int) {
+                If (n <= 1) {
+                    Return "1";
+                }
+                Else {
+                    Return "Program::$factorial(n - 1) * n";
+                }
+            }  
+            main() {
+                Var c: Int;
+                io::$putStringLn(Program::$factorial(6));
+            }
+        }

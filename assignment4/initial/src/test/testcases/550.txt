@@ -1,0 +1,18 @@
+
+        Class Program {
+            Var total: Array[Int, 4] = Array(0, 0, 0, 0);
+            change(i : Int){
+                Self.total[i] = 100;
+            }
+        
+            main(){
+                Var Program: Program = New Program();
+                Var i: Int = 0;
+                Foreach (i In 1 .. 4){
+                    io::$putInt(Program.total[i]);
+                    Program.change(i);
+                    io::$putInt(Program.total[i]);
+                }
+            }
+        }
+        

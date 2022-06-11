@@ -1,0 +1,22 @@
+
+        Class D {
+            Var d : Int = 2 + 4 + 6 * 7;
+
+        }
+        Class C {
+            Var c: Float = 5.2;
+            Constructor(t: Float; c: String) {}
+        }
+        Class A {
+            Var b: Float = 3.4;
+            getA(a: Float) {
+                Return a;
+            }
+        }
+        Class Program {
+            main(){
+                Var a: A = New A();
+                io::$putFloatLn(a.b);
+            }
+        }
+        

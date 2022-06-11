@@ -251,7 +251,7 @@ FLOATLIT: (INTPART DECPART EXPPART? | DECPART EXPPART | INTPART EXPPART)  {self.
 BOOLLIT: TRUE | FALSE;
 
 STRINGLIT
-    : '"' (~["\\\r\n] | '\\' ['bfrnt\\] | [']["])* '"' 
+    : '"' (~[\r\n"\\] | '\\' ['bfrnt\\] | [']["])* '"' 
         {
             self.text = self.text[1:-1]
         }
@@ -269,14 +269,14 @@ ERROR_CHAR
     ;
 
 ILLEGAL_ESCAPE
-    : '"' (~["\\\r\n] | '\\' ['bfrnt\\] | [']["])* ('\\' ~[bfnrt'"\\] | '\\')
+    : '"' (~[\r\n"\\] | '\\' ['bfrnt\\] | [']["])* ('\\' ~[bfnrt'"\\] | '\\')
         {
             raise IllegalEscape(self.text[1:])
         }
     ;
 
 UNCLOSE_STRING
-    :  '"' (~["\\\r\n] | '\\' ['bfrnt\\])* ([\n\r] | EOF | '\\' EOF | [']["] ~[EOF])
+    :  '"' (~[\r\n"\\] | '\\' ['bfrnt\\] | [']["])* ([\n\r] | [\\]? EOF | [']["] ([\r\n"\\] | EOF))
         {
             if self.text[-1] in ['\n', '\r']:
                 raise UncloseString(self.text[1:-1])

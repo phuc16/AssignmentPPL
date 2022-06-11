@@ -1,0 +1,16 @@
+
+        Class Name {
+            Var name: String = "My Name";
+            Val age : Int = 18;
+            func() {
+                Self.name = Self.name +. "is Program";
+            }
+        }
+        Class Program {
+            main() {
+                Var name: Name = New Name();
+                name.func();
+                io::$putString(name.name);
+            }
+        }
+        

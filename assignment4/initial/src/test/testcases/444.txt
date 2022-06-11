@@ -1,0 +1,16 @@
+
+        Class Name {
+            Var name: String = "My Name";
+            Val age : Int = 18;
+            main() {
+                Self.name = Self.name +. "is Program";
+                Return Self.age + 12 / 5 + (67 % 4);
+            }
+        }
+        Class Program {
+            main() {
+                Var name: Name = New Name();
+                io::$putString(name.name);
+            }
+        }
+        

@@ -1,0 +1,8 @@
+Class Program {
+                   $x(){
+                       Return 11;
+                   }
+                    main() {
+                        io::$putInt(Program::$x());
+                    }
+                }

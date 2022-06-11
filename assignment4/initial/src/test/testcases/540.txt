@@ -1,0 +1,15 @@
+
+        Class Program {
+            main() {
+                Var c: Int = 5;
+                If (c > 4) {
+                    Var a: Int = 2;
+                    Var c: Int;
+                    Foreach (c In 1 .. 100 By a) { 
+                        io::$putInt(c);
+                    }
+                }
+            }
+        }
+        
+        

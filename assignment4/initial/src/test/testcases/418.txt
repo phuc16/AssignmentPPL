@@ -1,0 +1,7 @@
+
+                        Class C{
+                            e(){
+                                Var a:Int = 2;
+                                a=3;
+                            }
+                        }

@@ -1,0 +1,18 @@
+
+        Class A {
+            print(a: Int) {
+                Var b: Int;
+                Foreach (b In 1 .. a) {
+                    If (b > 4) { 
+                        io::$putInt(b);
+                    }
+                }
+            }
+        }
+        Class Program {
+            main() {
+                Var a: A = New A();
+                a.print(15);
+            }
+        }
+        

@@ -1,0 +1,11 @@
+
+        Class A {
+            Var b: Array[Int, 3];
+            getA(b: Float) {
+                Var a: Array[Array[Int, 2], 3];
+            }
+            Constructor () { }
+            Destructor () { }
+        }
+        Class Program {main(){}}
+        

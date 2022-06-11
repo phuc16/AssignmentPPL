@@ -1,0 +1,9 @@
+
+        Class Program {
+            main() {
+                Var a: Float = 1.234;
+                io::$putFloat(a/2*25+2262-2352*3223+2352/25262*2252);
+            }
+        }
+        
+        

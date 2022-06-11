@@ -1,0 +1,14 @@
+
+        Class Program {
+            foo(){
+                io::$putInt(1);
+            }
+            main(){
+                Var Program: Program = New Program();
+                Var i: Int;
+                Foreach (i In 1 .. 10){
+                    Program.foo();
+                } 
+            }
+        }
+        

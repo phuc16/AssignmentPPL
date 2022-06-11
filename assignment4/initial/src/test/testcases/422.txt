@@ -1,0 +1,13 @@
+
+        Class C {
+            getC(a: Int; b: Float) { }
+        }
+        Class Program {main(){}}
+        Class A {
+            method() {
+                Var c: C;
+                Var b: Int;
+                b = c.getC(1, 2.4);
+            }
+        }
+        

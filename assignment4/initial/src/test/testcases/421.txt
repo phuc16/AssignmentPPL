@@ -1,0 +1,12 @@
+
+        Class A {
+            Var b: Float = 12.5;
+            Var a: Array[Array[Int, 2], 2] = Array(Array(2,3), Array(b,6));
+        }
+        Class Program {
+            main(){
+                Var a: A = New A();
+                io::$putIntLn(a.a[0][0]);
+            }
+        }
+        

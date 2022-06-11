@@ -1,0 +1,20 @@
+
+        Class Animal {
+            Var d: String = "Hello" +. " World";
+            Var e: Boolean = (2 > 4);
+            Var a: Animal;
+            Var b: Int = 2 + 5 * 7;
+            Var c: Float = 2 * 7 + 4.5;
+            get() {
+                io::$putFloatLn(Self.c);
+                io::$putString(Self.d);
+            }
+        }
+        Class Program {
+            main() { 
+                Var animal: Animal = New Animal();
+                animal.get();
+            }
+        }
+        
+        

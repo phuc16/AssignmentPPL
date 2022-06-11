@@ -1,0 +1,8 @@
+Class Program {
+            main() {
+                Var x: Int;
+                Foreach (x In 1 .. 15 By 2 * 2) {
+                    io::$putInt(1);
+                }
+            }
+        }

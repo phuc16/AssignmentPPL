@@ -1,0 +1,14 @@
+
+        Class C {
+            Var z: Float = 6.9;
+            getC(a: Int; b: Float) { 
+                Return 12.2;
+            }
+        }
+        Class Program {
+            main(){
+                Var b: C = New C();
+                io::$putFloat(b.z);
+            }
+        }
+        

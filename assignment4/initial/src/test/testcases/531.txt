@@ -1,0 +1,11 @@
+Class Program{
+            $mehthod(){
+
+                Var a: Array[Int, 3] = Array(1,2,3);
+                Return a;
+            }
+            main(){
+                Var a: Array[Int, 3] = Program::$mehthod();
+                io::$putInt(a[1]);
+            }
+            }

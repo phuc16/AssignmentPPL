@@ -1,0 +1,16 @@
+  
+        Class Program {
+            main () {
+                Var a: Array[Int, 5] = Array(4, 3, 2, 1, 0);
+                Var i: Int;
+                Foreach (i In 1 .. 5){
+                    If (i == 2) {
+                        io::$putInt(a[i]);
+                    }
+                    Else {
+                        io::$putInt(i);
+                    }
+                }
+            }
+        }
+        

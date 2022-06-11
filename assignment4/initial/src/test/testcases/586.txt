@@ -1,0 +1,15 @@
+  
+        Class Program {
+            main () {
+                Var a: Array[Int, 4] = Array(0, 1, 2, 3);
+                Var i: Int;
+                Var j: Int;
+                Foreach (i In 1 .. 4){
+                    Foreach (j In 1 .. 4){
+                        io::$putInt(a[j]);
+                    }
+                    io::$putInt(a[i]);
+                }
+            }
+        }
+        

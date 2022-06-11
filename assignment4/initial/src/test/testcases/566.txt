@@ -1,0 +1,13 @@
+
+        Class Program {main(){}}
+        Class supsuper {
+            Var ss: Int = 2;
+            Constructor () { }
+            Destructor () { }
+        }
+        Class super : supsuper {
+            Var s: supsuper;
+            Constructor () { }
+            Destructor () { }
+        }
+        

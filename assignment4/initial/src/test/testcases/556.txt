@@ -1,0 +1,14 @@
+
+            Class A{
+                Var x:Int = 11;
+            }
+            Class Program{
+                $sum(n: Int) {
+                    Var a:A = New A();
+                    Return a.x + 12.2/2  + n;             
+                }
+
+                main(){
+                    io::$putFloat(Program::$sum(12));
+                }
+            }

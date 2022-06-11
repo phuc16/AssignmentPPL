@@ -1,0 +1,20 @@
+
+        Class C {
+            Var $c: Int = 2;
+            get() { }
+            Destructor () { }
+            Constructor(a: Float; b: String) { }
+        }
+        
+        Class A {
+            Var b: Array[Int, 3];
+            getA(b: Float) {
+                Var a: Array[Int, 3];
+                a = Array(4,5,6.7);
+            }
+            Constructor () { }
+            Destructor () { }
+        }
+
+        Class Program {main(){}}
+        

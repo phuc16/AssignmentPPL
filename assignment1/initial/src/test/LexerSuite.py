@@ -324,7 +324,7 @@ class LexerSuite(unittest.TestCase):
         self.assertTrue(TestLexer.test("\"Is this\\\\h illegal?\"", "Is this\\\\h illegal?,<EOF>", 305))
 
     def test99(self):
-        self.assertTrue(TestLexer.test("\"String with single quote \'this is good\'\"", "String with single quote 'this is good',<EOF>", 306))  
+        self.assertTrue(TestLexer.test("\"String with single quote \'this is good\'\"", "Unclosed String: String with single quote \'this is good\'\"", 306))  
 
     def test100(self):
         self.assertTrue(TestLexer.test("\"String with 1 backlash\\\" \'is this error\'", "Illegal Escape In String: String with 1 backlash\\", 307))

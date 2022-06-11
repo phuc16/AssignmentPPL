@@ -1,0 +1,13 @@
+
+        Class Program {
+            Var att: Int = 20;
+            foo(){
+                Self.att = 30;
+            }
+            main(){
+                Var Program: Program = New Program();
+                Program.foo();
+                io::$putInt(Program.att);
+            }
+        }
+        

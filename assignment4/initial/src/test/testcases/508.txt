@@ -1,0 +1,11 @@
+Class Program {
+                Var x: Int = 11;
+                abc(){
+                    Self.x = 10;
+                    io::$putInt(Self.x);
+                }
+                main() {
+                    Var a: Program = New Program();
+                    a.abc();
+                }
+            }

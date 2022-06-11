@@ -1,0 +1,12 @@
+
+            Class A{
+                Var x:Int = 11;
+            }
+            Class Program{
+                Var y:Int = 1;
+
+                main(){
+                    Var a:A = New A();
+                    io::$putInt(a.x);
+                }
+            }
